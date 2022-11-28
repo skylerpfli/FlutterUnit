@@ -43,6 +43,11 @@ dependencies:
   flutter_markdown: 0.6.4 # markdown
 
   desktop_window: 0.4.0 #桌面尺寸
+  flutter_conch_plugin:
+    hosted:
+      name: flutter_conch_plugin
+      url: http://pub.oa.com
+    version: 1.1.4
 
 dev_dependencies:
   flutter_test:
@@ -58,6 +63,7 @@ flutter:
     - assets/images/widgets/
     - assets/flutter.db
     - assets/version.json
+    - assets/conch_data/
 
   fonts: # 配置字体，可配置多个，支持ttf和otf,ttc等字体资源
     - family: IndieFlower #字体名
@@ -81,3 +87,9 @@ flutter:
     - family: TolyIcon
       fonts:
         - asset: assets/iconfont/iconfont.ttf
+
+
+conch:
+  enable: true
+#  constantSyntaxBuild: false
+  outPath: ./assets/conch_data
