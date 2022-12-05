@@ -1,6 +1,10 @@
-**用于Conch热更新验证**
+**Conch热更新体验工程**
 
-----
+切换到conchDynamic分支进行体验，使用参照 https://git.woa.com/flutter_components/FlutterDynamic/conch-demo
+
+！Android机下滑动有卡顿，正在排查原因
+
+---
 #### Flutter Unit 周边
 - 🔥  [掘金小册 -《Flutter 语言基础 - 梦始之地》](https://juejin.cn/book/6844733827617652750)
 - 🔥  [掘金小册 -《Flutter 绘制指南 - 妙笔生花》](https://juejin.im/book/6844733827265331214)
