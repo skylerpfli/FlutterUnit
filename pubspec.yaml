@@ -44,10 +44,9 @@ dependencies:
 
   desktop_window: 0.4.0 #桌面尺寸
   flutter_conch_plugin:
-    hosted:
-      name: flutter_conch_plugin
-      url: http://pub.oa.com
-    version: 1.1.4
+    git:
+      url: https://git.woa.com/flutter_components/FlutterDynamic/conch-plugin.git
+      ref: v1.1.5_pre.1
 
 dev_dependencies:
   flutter_test:
@@ -91,5 +90,5 @@ flutter:
 
 conch:
   enable: true
-#  constantSyntaxBuild: false
+  symbolBuild: false
   outPath: ./assets/conch_data

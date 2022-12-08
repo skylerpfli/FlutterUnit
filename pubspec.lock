@@ -149,10 +149,12 @@ packages:
   flutter_conch_plugin:
     dependency: "direct main"
     description:
-      name: flutter_conch_plugin
-      url: "http://pub.oa.com"
-    source: hosted
-    version: "1.1.4"
+      path: "."
+      ref: "v1.1.5_pre.1"
+      resolved-ref: "31897102d805fc068e54ad40d0e18f0eec8ac0ce"
+      url: "https://git.woa.com/flutter_components/FlutterDynamic/conch-plugin.git"
+    source: git
+    version: "1.1.5"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -232,7 +234,7 @@ packages:
       name: json_annotation
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.0.0"
+    version: "4.7.0"
   jwt_decoder:
     dependency: "direct main"
     description:
@@ -281,7 +283,7 @@ packages:
       name: mime
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.2"
+    version: "1.0.3"
   nested:
     dependency: transitive
     description:
