@@ -44,9 +44,10 @@ dependencies:
 
   desktop_window: 0.4.0 #桌面尺寸
   flutter_conch_plugin:
-    git:
-      url: https://git.woa.com/flutter_components/FlutterDynamic/conch-plugin.git
-      ref: v1.1.5_pre.1
+    hosted:
+      name: flutter_conch_plugin
+      url: http://pub.oa.com
+    version: 1.1.5
 
 dev_dependencies:
   flutter_test:
@@ -62,7 +63,8 @@ flutter:
     - assets/images/widgets/
     - assets/flutter.db
     - assets/version.json
-    - assets/conch_data/
+    - assets/conch_build/patch_json/
+    - assets/conch_build/patch_dat/
 
   fonts: # 配置字体，可配置多个，支持ttf和otf,ttc等字体资源
     - family: IndieFlower #字体名
@@ -89,6 +91,4 @@ flutter:
 
 
 conch:
-  enable: true
-  symbolBuild: false
-  outPath: ./assets/conch_data
+  outPath: ./assets
