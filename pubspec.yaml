@@ -47,7 +47,8 @@ dependencies:
     hosted:
       name: flutter_conch_plugin
       url: http://pub.oa.com
-    version: 1.1.5
+    version: 1.1.6
+
 
 dev_dependencies:
   flutter_test:
